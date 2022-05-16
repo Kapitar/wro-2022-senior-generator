@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.mark-block, .clothes-block {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+}
+
+.clothes-block.yellow-room {
+    margin-top: 229px;
+    margin-left: 336px;
+}
+
+.mark-block.yellow-room {
+    margin-top: 302px;
+    margin-left: 363px;
+}
+
+.clothes-block.blue-room {
+    margin-top: 675.2px;
+    margin-left: 335px;
+}
+
+.mark-block.blue-room {
+    margin-top: 603px;
+    margin-left: 363px;
+}
+
+.clothes-block.red-room {
+    margin-top: 229px;
+    margin-left: 1559px;
+}
+
+.mark-block.red-room {
+    margin-top: 302px;
+    margin-left: 1530px;
+}
+
+.clothes-block.green-room {
+    margin-top: 675px;
+    margin-left: 1559px;
+}
+
+.mark-block.green-room {
+    margin-top: 603px;
+    margin-left: 1530px;
+}
+
+.white {
+    background: white;
+}
+
+.white::after {
+    content: "W";
+}
+
+.green {
+    background: green;
+}
+
+.green::after {
+    content: "G";
+}
+
+.yellow {
+    background: yellow;
+}
+
+.yellow::after {
+    content: "Y";
+}
+
+.red {
+    background: red;
+}
+
+.red::after {
+    content: "R";
+}
+
+.black {
+    color: white;
+    background: black
+}
+
+.black::after {
+    content: "B";
+}
