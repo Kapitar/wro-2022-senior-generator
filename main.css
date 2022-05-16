@@ -50,6 +50,26 @@ body {
     margin-left: 1530px;
 }
 
+.frame {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    margin-top: 816px;
+    text-align: center;
+}
+
+.frame-left {
+    margin-left: 842px;
+}
+
+.frame-middle {
+    margin-left: 928px;
+}
+
+.frame-right {
+    margin-left: 1014px;
+}
+
 .white {
     background: white;
 }
